@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins','Open sans';
+    background-color: rgb(42, 41, 41);
+    color: darkcyan;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 229, 229);
+    }
+.calc{
+  box-shadow: 6px 6px 13px 8px #7a7c7c, 6px 6px 13px rgba(0, 0, 0, 0.16);
+  border-radius: 18px;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(4,66px);
+}
+input{
+    grid-column: span 4;
+    height: 68px;
+    width: 258px;
+    box-shadow: inset -2px -2px 13px 4px #263b3c,
+                inset 6px 6px 13px rgba(0, 0, 0, 0.16);
+    background-color: rgb(42, 41, 41);
+    border: none;
+    border-radius: 18px;
+     color: #a29e9e;
+     text-align: end;
+     margin: 20px 0 30px 0;
+     padding: 20px;
+     font-size: 35px;
+}
+button{
+    box-shadow: inset 2px 2px 13px 4px #263b3c,
+               6px 6px 13px rgba(0, 0, 0, 0.16);
+    background-color: rgb(42, 41, 41);
+    border: none;
+    border-radius: 25%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.equal{
+     background: #263b3c;
+     color: #28a2a6;
+     font-size: 35px;
+     cursor:grab;
+    width: 120px;
+    border-radius: 12px;
+    box-shadow: inset 2px 2px 13px 4px #539da0,
+               6px 6px 13px rgba(0, 0, 0, 0.16);
+}
+
+
+
+
+
